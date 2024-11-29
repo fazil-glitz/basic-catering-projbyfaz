@@ -1,0 +1,288 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px -5px, rgba(0,0,0,0.3) 0px 8px 16px -8px;
+    background-color: black;
+    color: white;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-links a:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.navbar-menu-toggle{
+    cursor: pointer;
+    display: block;
+}
+
+
+
+@media  screen and (max-width:700px) {
+    .navbar-links{
+        display: none;
+    }
+
+    .service-container-1 p,h2{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+    .cars{
+        display: none;
+    }
+}
+
+.side-navbar{
+    background-color: black;
+    width:300px;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    padding: 20px;
+    color:white;
+    display: none;
+}
+
+.side-navbar-link{  
+    margin-bottom: 30px;
+}
+
+
+.side-navbar-link a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-navbar-link a:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.top-button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-container-2 div{
+    background-color: black ;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cars{
+    text-align: center;
+}
+
+
+.box{
+    border:2px solid black;
+    display: inline-block;
+    width: 250px;
+}
+
+
+.box button{
+    padding:10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.news button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.Contact{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+.car-section{
+    margin-top: 20px;
+}
+
+.car-search{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.car-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+
+.car-search input:focus{
+    outline: none;
+}
+
+
+.collections{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.collections-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.collections-box img{
+    border-radius: 10px;
+}
+
+
+.help-containers{
+    margin: 20px;
+}
+
+.help-container-1,.help-container-2,.help-container-3,.help-container-4,.help-container-5,.help-container-6,.help-container-7{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-container-1 h2:hover,.help-container-2 h2:hover,.help-container-3 h2:hover,.help-container-4 h2:hover,.help-container-5 h2:hover,.help-container-6 h2:hover,.help-container-7 h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
+
+
+.about{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-left:40px;
+    padding-right: 40px;
+
+}
+
+.faq-container{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-container-1,.faq-container-2,.faq-container-3,.faq-container-4,.faq-container-5,.faq-container-6,.faq-container-7,.faq-container-8{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq-container-1 h2:hover,.faq-container-2 h2:hover,.faq-container-3 h2:hover,.faq-container-4 h2:hover,.faq-container-5 h2:hover,.faq-container-6 h2:hover,.faq-container-7 h2:hover,.faq-container-8 h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+}
